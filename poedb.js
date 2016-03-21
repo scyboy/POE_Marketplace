@@ -4,7 +4,7 @@ var app = express();
 
 // define routes
 app.get('/', function(req, res){
-    res.send('hello! express！ this is a index');
+    res.send('測試文件');
 });
 
 app.listen(80, function () {
